@@ -6,3 +6,10 @@ Date last edited: 02/14/2026
 Version: 1.0
 Description: External stylesheet for Patient Registration form page.
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef6ff;
+  color: #111;
+  margin: 0;
+}
