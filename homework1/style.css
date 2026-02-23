@@ -2,7 +2,7 @@
 Program name: style.css
 Author: Miya Donato
 Date created: 02/14/2026
-Date last edited: 02/20/2026
+Date last edited: 02/27/2026
 Version: 1.0
 Description: External CSS for Homework 1. 
 */
@@ -89,6 +89,8 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+
 
 
 
