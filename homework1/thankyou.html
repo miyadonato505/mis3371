@@ -1,1 +1,75 @@
+<!doctype html>
+<!-- 
+    Program name: thankyou.html
+    Author: Miya Donato
+    Date created: 02/14/2026
+    Date last edited: 02/27/2026
+    Version: 1.0
+    Description: Thank you page after patient form submission.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Thank You - Evergreen Medical Center</title>
+
+    <!-- Load same external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div id="banner">
+    <table width="100%">
+        <tr>
+            <td width="200">
+                <img 
+                    id="logo" 
+                    src="logo.png" 
+                    alt="Evergreen Medical Center Logo"
+                >
+            </td>
+
+            <td valign="top">
+                <h1>Evergreen Medical Center</h1>
+            </td>
+
+            <td valign="bottom" align="right">
+                Today's Date:
+                <br>
+                <span id="today">Date goes here</span>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<hr>
+
+<!-- THANK YOU MESSAGE -->
+<div id="main">
+    <h2>Thank You for Your Submission.</h2>
+    <p>Your patient registration has been successfully received.</p>
+
+    <br>
+    <a href="patient-form.html">Return to Registration Form</a>
+</div>
+
+<!-- FOOTER -->
+<div id="footer">
+    <hr>
+    Evergreen Medical Center | PO BOX 18881 | Sugar Land, TX 77496
+    <br>
+    <button type="button" onclick="alert('Contact Us: info@evergreenmedical.com')">
+        Contact Us
+    </button>
+</div>
+
+<!-- Dynamic Date -->
+<script>
+document.getElementById("today").innerHTML = new Date().toDateString();
+</script>
+
+</body>
+</html>
 
